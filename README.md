@@ -1,7 +1,7 @@
 # Data Science Projects
 This repository contains a sample of data science projects completed by me. 
 
-## [Amazon Product Quality Report](https://github.com/amousatov/amousatov.github.io/blob/main/amazon_reviews/amazon_reviews.ipynb)
+## [Amazon Product Quality Report](https://github.com/amousatov/amousatov/blob/main/amazon_reviews/amazon_reviews.ipynb)
 I scrape and clean Amazon review and rating data for multiple products, with the aim of creating a concise, customer-friendly report on the product. The report is intended to give the potential customer a balanced understanding of the positive and negative features of each product. It provides brief, informative snippets of customer reviews, while filtering out purely sentimental statements.
 * I identify the probable presence of unreliable product quality and/or fraudulent reviews, using a chi-squared test. 
 * I extract keywords used by happy versus unhappy uncustomers, with an emphasis on keywords that express concrete features of the product, while excluding uninformative sentimental keywords. 
@@ -9,7 +9,7 @@ I scrape and clean Amazon review and rating data for multiple products, with the
 
 Methods used: data scraping (requests, beautifulsoup), statistical analysis (chi-squared test), keyword extraction (term frequencies, bag of words, lemmatization, stopwords) 
 
-## [Chess Piece Valuation](https://github.com/amousatov/amousatov.github.io/blob/main/chess/chess.ipynb)
+## [Chess Piece Valuation](https://github.com/amousatov/amousatov/blob/main/chess/chess.ipynb)
 
 Almost anyone who has played chess knows the traditional point values for chess pieces: 9 points for a queen, 5 for a rook, 3 for a bishop or knight, and 1 for a pawn. There are many possible expansions to this point score; for example, C. Shannon (1949) added an extra 0.1 points for every legal move to represent mobility, and a -0.5 points penalty for every badly positioned pawn. These point scores are thought to express the strength of the White versus Black player at any point in the game. More points should mean that the player is more likely to win. 
 
@@ -25,7 +25,7 @@ We need to make a subtle distinction to make sense of this result. If any player
 
 *Methods used in project: data cleaning, feature engineering, logistic regression, XGBoost*
 
-## [Advertising Analysis of a Grocery Store Retailer](https://github.com/amousatov/amousatov.github.io/blob/main/advertising_grocery_store/advertising_grocery_store.ipynb)
+## [Advertising Analysis of a Grocery Store Retailer](https://github.com/amousatov/amousatov/blob/main/advertising_grocery_store/advertising_grocery_store.ipynb)
 
 I analyze a national grocery retailer's household-level transaction history, and I make conclusions that would aid the retailer's advertising efforts. 
 
@@ -41,7 +41,7 @@ I analyze a national grocery retailer's household-level transaction history, and
 
 Methods used: data manipulation (pandas), dimensional reduction (PCA), clustering (KMeans)
 
-## [Cryptocurrency Forecasting](https://github.com/amousatov/amousatov.github.io/blob/main/cryptocurrency/cryptocurrency_forecast.ipynb)
+## [Cryptocurrency Forecasting](https://github.com/amousatov/amousatov/blob/main/cryptocurrency/cryptocurrency_forecast.ipynb)
 I create a forecasting model for fifteen-minute price movements of popular cryptocurrency assets. 
 * I examine statistical properties of the time series, specifically autocorrelation and stationarity, to inform my modeling. 
 * I engineer a number of features, including popular technical financial indicators, as well as rolling averages and first and second derivatives of various features.
