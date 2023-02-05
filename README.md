@@ -36,7 +36,7 @@ I analyze a national grocery retailer's household-level transaction history, and
 * Product displays in special locations, like in-store or in the weekly mailer, boost sales by a factor of 3.66 on average. The featured products continue to be bought at an elevated rate for about 50 days (see right figure). The highest value display locations are the store front, with a 7-times boost in sales, and the front-page of the weekly mailer, with a 6.5-times boost in sales. 
 
 <p align="center">
-<img src="figures/marketing_campaign.png" width = "400"/>   <img src="product_featuring.png" width = "400"/> 
+<img src="marketing_campaign.png" width = "400"/>   <img src="product_featuring.png" width = "400"/> 
 </p>
 
 Methods used: data manipulation (pandas), dimensional reduction (PCA), clustering (KMeans)
